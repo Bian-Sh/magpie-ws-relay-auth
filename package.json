@@ -1,0 +1,49 @@
+{
+  "name": "magpie-ws-relay-auth",
+  "version": "0.5.0",
+  "description": "magpie / OpenCode provider plugin: bridge an OpenAI Responses WebSocket relay to HTTP/SSE, with a per-provider On/Off switch",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "README.en.md",
+    "README.zh-TW.md",
+    "README.ja.md",
+    "README.de.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-auth",
+    "magpie",
+    "magpie-plugin",
+    "provider",
+    "auth",
+    "websocket",
+    "responses",
+    "codex",
+    "sse"
+  ],
+  "license": "MIT",
+  "author": "Bian-Sh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bian-Sh/magpie-ws-relay-auth.git"
+  },
+  "homepage": "https://github.com/Bian-Sh/magpie-ws-relay-auth#readme",
+  "bugs": "https://github.com/Bian-Sh/magpie-ws-relay-auth/issues",
+  "magpie": {
+    "name": "Codex Proxy RS (WS)",
+    "summary": {
+      "en": "Use any OpenAI Responses WebSocket relay (codex-proxy-rs or a compatible gateway) from magpie. One text frame per event is translated to SSE; turn the switch off to use the relay's plain HTTP/SSE instead.",
+      "zh": "让 magpie 接入支持官方 Responses WebSocket 的中转站（codex-proxy-rs 或兼容网关）：把 WebSocket 帧翻译成 SSE，关闭开关即改走中转站的 HTTP/SSE 双栈。",
+      "zh-TW": "讓 magpie 接入支援官方 Responses WebSocket 的中轉站（codex-proxy-rs 或相容閘道）：把 WebSocket 訊框翻譯成 SSE，關閉開關即改走中轉站的 HTTP/SSE 雙協定。",
+      "ja": "公式 Responses WebSocket 対応の中継サーバー（codex-proxy-rs または互換ゲートウェイ）を magpie から利用します。WebSocket フレームを SSE に変換し、スイッチを切ると HTTP/SSE に切り替わります。",
+      "de": "Beliebige OpenAI-Responses-WebSocket-Relays (codex-proxy-rs oder kompatible Gateways) in magpie nutzen: Frames werden zu SSE übersetzt, mit ausgeschaltetem Schalter wird HTTP/SSE verwendet."
+    },
+    "icon": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%235b5bd6'/%3E%3Cpath%20d='M16%2024h22a8%208%200%200%201%200%2016H26'%20fill='none'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3Cpath%20d='m30%2018-8%206%208%206M30%2034l-8%206%208%206'%20fill='none'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3C/svg%3E"
+  }
+}

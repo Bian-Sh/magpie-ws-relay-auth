@@ -1,0 +1,10 @@
+{
+  "package": "magpie-ws-relay-auth",
+  "name": "Codex Proxy RS (WS)",
+  "providers": ["codex-proxy-ws"],
+  "icon": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%235b5bd6'/%3E%3Cpath%20d='M16%2024h22a8%208%200%200%201%200%2016H26'%20fill='none'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'/%3E%3Cpath%20d='m30%2018-8%206%208%206M30%2034l-8%206%208%206'%20fill='none'%20stroke='white'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%3C/svg%3E",
+  "summary": {
+    "en": "Use any OpenAI Responses WebSocket relay (codex-proxy-rs or a compatible gateway) from magpie: one frame per event is translated to SSE, and a per-provider switch falls back to the relay's plain HTTP/SSE. Unlike an ordinary custom provider, this one speaks the WebSocket Upgrade path without changing magpie.",
+    "zh": "让 magpie 接入支持官方 Responses WebSocket 的中转站（codex-proxy-rs 或兼容网关）：逐帧翻译成 SSE，供应商页开关可随时退回 HTTP/SSE。与普通自定义供应商不同，它走的是 WebSocket Upgrade 路径，且不修改 magpie 本体。"
+  }
+}
